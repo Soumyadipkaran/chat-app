@@ -2,6 +2,8 @@
 
 A real-time chat application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and **Socket.io** for bidirectional communication. This app supports user authentication, image uploads, multiple themes, and group chats.
 
+Live On : https://chat-app-7exa.onrender.com/
+
 ## ✨ Features
 
 - 🔒 **User Authentication & Authorization:** Uses **JWT (JSON Web Token)** and **cookies** for secure authentication.
