@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import AuthImagePattern from "../components/AuthImagePattern";
 import toast from "react-hot-toast";
 
+import AboutMe from "./Me";
+
 const SignUpPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
@@ -136,6 +138,14 @@ const SignUpPage = () => {
               Already have an account?{" "}
               <Link to="/login" className="link link-primary">
                 Sign in
+              </Link>
+            </p>
+          </div>
+          <div className="text-center">
+            <p className="text-base-content/60">
+              Learn More-
+              <Link to="/about" className="link link-primary">
+                about
               </Link>
             </p>
           </div>
